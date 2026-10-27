@@ -1,0 +1,523 @@
+[
+{
+"id": "127",
+"name": "Times Sq-42 St",
+"lat": 40.7553,
+"lon": -73.9871,
+"routes": [
+"1",
+"2",
+"3"
+],
+"ada": true
+},
+{
+"id": "725",
+"name": "Times Sq-42 St",
+"lat": 40.7555,
+"lon": -73.9875,
+"routes": [
+"7"
+],
+"ada": true
+},
+{
+"id": "R16",
+"name": "Times Sq-42 St",
+"lat": 40.7546,
+"lon": -73.9867,
+"routes": [
+"N",
+"Q",
+"R",
+"W"
+],
+"ada": true
+},
+{
+"id": "631",
+"name": "Grand Central-42 St",
+"lat": 40.7518,
+"lon": -73.9768,
+"routes": [
+"4",
+"5",
+"6"
+],
+"ada": true
+},
+{
+"id": "723",
+"name": "Grand Central-42 St",
+"lat": 40.7514,
+"lon": -73.9763,
+"routes": [
+"7"
+],
+"ada": true
+},
+{
+"id": "635",
+"name": "14 St-Union Sq",
+"lat": 40.7347,
+"lon": -73.99,
+"routes": [
+"4",
+"5",
+"6"
+],
+"ada": true
+},
+{
+"id": "L03",
+"name": "14 St-Union Sq",
+"lat": 40.7348,
+"lon": -73.99,
+"routes": [
+"L"
+],
+"ada": true
+},
+{
+"id": "R20",
+"name": "14 St-Union Sq",
+"lat": 40.7356,
+"lon": -73.9907,
+"routes": [
+"N",
+"Q",
+"R",
+"W"
+],
+"ada": true
+},
+{
+"id": "A27",
+"name": "42 St-Port Authority Bus Terminal",
+"lat": 40.7573,
+"lon": -73.9898,
+"routes": [
+"A",
+"C",
+"E"
+],
+"ada": true
+},
+{
+"id": "A32",
+"name": "W 4 St-Wash Sq",
+"lat": 40.7323,
+"lon": -74.0005,
+"routes": [
+"A",
+"C",
+"E"
+],
+"ada": true
+},
+{
+"id": "D20",
+"name": "W 4 St-Wash Sq",
+"lat": 40.7323,
+"lon": -74.0005,
+"routes": [
+"B",
+"D",
+"F",
+"M"
+],
+"ada": true
+},
+{
+"id": "229",
+"name": "Fulton St",
+"lat": 40.7094,
+"lon": -74.0074,
+"routes": [
+"2",
+"3"
+],
+"ada": true
+},
+{
+"id": "A38",
+"name": "Fulton St",
+"lat": 40.7102,
+"lon": -74.0076,
+"routes": [
+"A",
+"C"
+],
+"ada": true
+},
+{
+"id": "418",
+"name": "Fulton St",
+"lat": 40.7104,
+"lon": -74.0095,
+"routes": [
+"4",
+"5"
+],
+"ada": true
+},
+{
+"id": "A41",
+"name": "Jay St-MetroTech",
+"lat": 40.6923,
+"lon": -73.9873,
+"routes": [
+"A",
+"C",
+"F"
+],
+"ada": true
+},
+{
+"id": "A40",
+"name": "High St",
+"lat": 40.6993,
+"lon": -73.9905,
+"routes": [
+"A",
+"C"
+],
+"ada": false
+},
+{
+"id": "125",
+"name": "59 St-Columbus Circle",
+"lat": 40.7682,
+"lon": -73.9819,
+"routes": [
+"1"
+],
+"ada": true
+},
+{
+"id": "A24",
+"name": "59 St-Columbus Circle",
+"lat": 40.7682,
+"lon": -73.9819,
+"routes": [
+"A",
+"B",
+"C",
+"D"
+],
+"ada": true
+},
+{
+"id": "120",
+"name": "96 St",
+"lat": 40.7939,
+"lon": -73.9724,
+"routes": [
+"1",
+"2",
+"3"
+],
+"ada": true
+},
+{
+"id": "112",
+"name": "168 St-Washington Hts",
+"lat": 40.8406,
+"lon": -73.9398,
+"routes": [
+"1"
+],
+"ada": true
+},
+{
+"id": "A09",
+"name": "168 St",
+"lat": 40.8407,
+"lon": -73.9398,
+"routes": [
+"A",
+"C"
+],
+"ada": true
+},
+{
+"id": "137",
+"name": "Chambers St",
+"lat": 40.7151,
+"lon": -74.0093,
+"routes": [
+"1",
+"2",
+"3"
+],
+"ada": true
+},
+{
+"id": "142",
+"name": "South Ferry",
+"lat": 40.702,
+"lon": -74.013,
+"routes": [
+"1"
+],
+"ada": true
+},
+{
+"id": "128",
+"name": "34 St-Penn Station",
+"lat": 40.7506,
+"lon": -73.9911,
+"routes": [
+"1",
+"2",
+"3"
+],
+"ada": true
+},
+{
+"id": "A28",
+"name": "34 St-Penn Station",
+"lat": 40.7523,
+"lon": -73.9932,
+"routes": [
+"A",
+"C",
+"E"
+],
+"ada": true
+},
+{
+"id": "D17",
+"name": "34 St-Herald Sq",
+"lat": 40.7496,
+"lon": -73.9879,
+"routes": [
+"B",
+"D",
+"F",
+"M"
+],
+"ada": true
+},
+{
+"id": "R17",
+"name": "34 St-Herald Sq",
+"lat": 40.7496,
+"lon": -73.9879,
+"routes": [
+"N",
+"Q",
+"R",
+"W"
+],
+"ada": true
+},
+{
+"id": "701",
+"name": "Flushing-Main St",
+"lat": 40.7596,
+"lon": -73.8301,
+"routes": [
+"7"
+],
+"ada": true
+},
+{
+"id": "726",
+"name": "34 St-Hudson Yards",
+"lat": 40.7559,
+"lon": -74.0019,
+"routes": [
+"7"
+],
+"ada": true
+},
+{
+"id": "719",
+"name": "Court Sq",
+"lat": 40.7471,
+"lon": -73.9456,
+"routes": [
+"7"
+],
+"ada": true
+},
+{
+"id": "G22",
+"name": "Court Sq",
+"lat": 40.7468,
+"lon": -73.9437,
+"routes": [
+"G"
+],
+"ada": true
+},
+{
+"id": "L08",
+"name": "Bedford Av",
+"lat": 40.7172,
+"lon": -73.9567,
+"routes": [
+"L"
+],
+"ada": false
+},
+{
+"id": "D43",
+"name": "Coney Island-Stillwell Av",
+"lat": 40.5774,
+"lon": -73.9813,
+"routes": [
+"D",
+"F",
+"N",
+"Q"
+],
+"ada": true
+},
+{
+"id": "G05",
+"name": "Jamaica Center-Parsons/Archer",
+"lat": 40.7022,
+"lon": -73.8011,
+"routes": [
+"E",
+"J",
+"Z"
+],
+"ada": true
+},
+{
+"id": "R01",
+"name": "Astoria-Ditmars Blvd",
+"lat": 40.775,
+"lon": -73.912,
+"routes": [
+"N",
+"W"
+],
+"ada": false
+},
+{
+"id": "235",
+"name": "Atlantic Av-Barclays Ctr",
+"lat": 40.6846,
+"lon": -73.9776,
+"routes": [
+"2",
+"3"
+],
+"ada": true
+},
+{
+"id": "626",
+"name": "86 St",
+"lat": 40.7795,
+"lon": -73.9555,
+"routes": [
+"4",
+"5",
+"6"
+],
+"ada": true
+},
+{
+"id": "621",
+"name": "125 St",
+"lat": 40.8043,
+"lon": -73.9374,
+"routes": [
+"4",
+"5",
+"6"
+],
+"ada": true
+},
+{
+"id": "640",
+"name": "Brooklyn Bridge-City Hall",
+"lat": 40.713,
+"lon": -74.0041,
+"routes": [
+"4",
+"5",
+"6"
+],
+"ada": true
+},
+{
+"id": "G14",
+"name": "Jackson Hts-Roosevelt Av",
+"lat": 40.7466,
+"lon": -73.8912,
+"routes": [
+"E",
+"F",
+"M",
+"R"
+],
+"ada": true
+},
+{
+"id": "B04",
+"name": "21 St-Queensbridge",
+"lat": 40.7541,
+"lon": -73.942,
+"routes": [
+"F"
+],
+"ada": true
+},
+{
+"id": "F12",
+"name": "5 Av/53 St",
+"lat": 40.7602,
+"lon": -73.9753,
+"routes": [
+"E",
+"M"
+],
+"ada": false
+},
+{
+"id": "Q03",
+"name": "72 St",
+"lat": 40.7689,
+"lon": -73.9584,
+"routes": [
+"Q"
+],
+"ada": true
+},
+{
+"id": "101",
+"name": "Van Cortlandt Park-242 St",
+"lat": 40.8892,
+"lon": -73.8985,
+"routes": [
+"1"
+],
+"ada": false
+},
+{
+"id": "201",
+"name": "Wakefield-241 St",
+"lat": 40.9031,
+"lon": -73.8507,
+"routes": [
+"2"
+],
+"ada": false
+},
+{
+"id": "247",
+"name": "Flatbush Av-Brooklyn College",
+"lat": 40.6327,
+"lon": -73.9475,
+"routes": [
+"2",
+"5"
+],
+"ada": true
+}
+]

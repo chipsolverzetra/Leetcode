@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NYC Transit Hub</title>
+  <meta name="description" content="Live NYC subway status, arrivals, elevator outages and alerts from MTA open data.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=JetBrains+Mono:wght@500;600&family=Public+Sans:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--APP-START-->
+  <header class="band gutter">
+    <div class="wrap">
+      <div class="brand">
+        <h1>NYC Transit Hub</h1>
+        <p data-i18n="tagline">Live subway status, arrivals and station access</p>
+      </div>
+      <div class="band-tools">
+        <select id="lang" aria-label="Language"></select>
+        <button class="btn" id="authBtn" type="button" hidden data-i18n="signIn">Sign in</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="gutter" aria-label="Sections">
+    <div class="wrap tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-status" aria-controls="view-status" aria-selected="true" data-view="status" data-i18n="tabStatus">Service status</button>
+      <button class="tab" role="tab" id="tab-map" aria-controls="view-map" aria-selected="false" data-view="map" data-i18n="tabMap">Map</button>
+      <button class="tab" role="tab" id="tab-access" aria-controls="view-access" aria-selected="false" data-view="access" data-i18n="tabAccess">Accessibility</button>
+      <button class="tab" role="tab" id="tab-favorites" aria-controls="view-favorites" aria-selected="false" data-view="favorites" data-i18n="tabFavorites">Favorites</button>
+    </div>
+  </nav>
+
+  <main class="gutter">
+    <div class="wrap">
+      <section class="view" id="view-status" role="tabpanel" aria-labelledby="tab-status">
+        <div class="section-head">
+          <div class="summary"><strong id="issueCount">–</strong><span id="issueLabel"></span></div>
+          <div class="note" id="statusMeta"></div>
+        </div>
+        <div class="grid-lines" id="lineGrid"></div>
+        <div class="alerts" id="alertList"></div>
+      </section>
+
+      <section class="view" id="view-map" role="tabpanel" aria-labelledby="tab-map" hidden>
+        <div class="map-layout">
+          <div id="map"></div>
+          <aside class="side">
+            <input class="search" id="stationSearch" type="search" data-i18n-placeholder="searchStation" placeholder="Search stations" autocomplete="off">
+            <div class="results" id="searchResults"></div>
+            <div id="stationPanel"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view" id="view-access" role="tabpanel" aria-labelledby="tab-access" hidden>
+        <div class="section-head">
+          <h2 data-i18n="outages">Elevator &amp; escalator outages</h2>
+          <label class="toggle"><input type="checkbox" id="elevOnly"> <span data-i18n="adaOnly">Accessible routes only</span></label>
+        </div>
+        <div class="outages" id="outageList"></div>
+      </section>
+
+      <section class="view" id="view-favorites" role="tabpanel" aria-labelledby="tab-favorites" hidden>
+        <div class="section-head">
+          <h2 data-i18n="tabFavorites">Favorites</h2>
+          <button class="btn" id="notifyBtn" type="button" aria-pressed="false" data-i18n="notify">Notify me about changes</button>
+        </div>
+        <p class="note" id="favMode"></p>
+        <div id="favContent" class="view"></div>
+      </section>
+    </div>
+  </main>
+
+  <dialog id="authDialog">
+    <form id="authForm" method="dialog">
+      <h2 data-i18n="signIn">Sign in</h2>
+      <input id="authEmail" type="email" required autocomplete="email" data-i18n-placeholder="email" placeholder="Email">
+      <input id="authPassword" type="password" required minlength="6" autocomplete="current-password" data-i18n-placeholder="password" placeholder="Password">
+      <div class="err" id="authErr"></div>
+      <button class="btn primary" id="authSubmit" type="submit" data-i18n="signIn">Sign in</button>
+      <button class="btn" id="authCreate" type="button" data-i18n="createAccount">Create account</button>
+      <button class="btn" id="authGoogle" type="button" data-i18n="google">Continue with Google</button>
+    </form>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <!--APP-END-->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
